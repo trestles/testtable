@@ -42,12 +42,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     {
       var menuItem=EKMenuItem()
       let randomIndex1 = Int(arc4random_uniform(UInt32(tmps.count)))
-      menuItem.header = tmps[randomIndex1]
+      menuItem.header = "\(i) \(tmps[randomIndex1])"
 
       let randomIndex2 = Int(arc4random_uniform(UInt32(tmps.count)))
-      menuItem.detail = tmps[randomIndex2]
+      menuItem.detail = "\(i) \(tmps[randomIndex2])"
       let randomIndex3 = Int(arc4random_uniform(UInt32(tmps.count)))
-      menuItem.price = tmps[randomIndex3]
+      menuItem.price = "\(i) \(tmps[randomIndex3])"
       //tmpItem.price = "my price"
       dataItems.append(menuItem)
     }
