@@ -28,24 +28,28 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="1000" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tY7-Wu-Iz6">
-                                                    <rect key="frame" x="13" y="27" width="220" height="21"/>
+                                                    <rect key="frame" x="13" y="27" width="160" height="21"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="220" id="Fvi-Rt-MpR"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="Fvi-Rt-MpR"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="etD-yO-o2y"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exZ-I0-h2I">
-                                                    <rect key="frame" x="13" y="80" width="220" height="21"/>
+                                                    <rect key="frame" x="13" y="80" width="160" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="S8E-2k-WDc"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rpC-Ix-ZmQ">
-                                                    <rect key="frame" x="492" y="27" width="80" height="21"/>
+                                                    <rect key="frame" x="530" y="27" width="42" height="21"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="80" id="lhx-Iz-Srj"/>
+                                                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="80" id="lhx-Iz-Srj"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="highlightedColor"/>
